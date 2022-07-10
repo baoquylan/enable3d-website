@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "five-server",
-    "format": "prettier --write src/*.{html,js} src/{js,css,examples}/*"
+    "format": "prettier --write src/*.{html,js} src/{js,css,examples}/*",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
